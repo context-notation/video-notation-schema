@@ -129,7 +129,7 @@ Released under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for the fu
 
 The schema was authored by **Nikolaos Maniatis** and is maintained and distributed by **The Cato Bot Company Limited**.
 
-Raise an **[issue](https://github.com/context-notation/video-notation-schema/issues/new) in this repository if you have found a bug or would like to suggest an addition.
+Raise an **[issue](https://github.com/context-notation/video-notation-schema/issues/new)** in this repository if you have found a bug or would like to suggest an addition.
 
 For commercial enquiries, long-term support, or integration partnerships, please contact:
 📧 **[schemas@context-notation.com](mailto:schemas@context-notation.com)**
