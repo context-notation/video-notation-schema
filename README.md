@@ -125,6 +125,19 @@ Released under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for the fu
 
 ---
 
+## Citation
+
+If you use the Video Notation Schema in academic work, please cite:
+
+**Nikolaos Maniatis.** *Video Notation Schema (v1.0.0)*. https://schemas.video-notation.com/video-notation.schema@v1.0.0  
+Available at: https://github.com/context-notation/video-notation-schema  
+Licensed under Apache 2.0. Maintained by The Cato Bot Company Limited.
+
+APA:
+Maniatis, N. (2025). *Video Notation Schema (v1.0.0)*. https://github.com/context-notation/video-notation-schema
+
+---
+
 ## 📞 Support & Contact
 
 •  Raise an issue in this repository if you have found a bug or would like to request a feature.

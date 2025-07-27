@@ -4,12 +4,13 @@
     "title": "Video Notation Schema",
     "description": "A comprehensive schema for prompting Ai generated video content, designed for AI video generation models. Created and maintained by The Cato Bot Company Limited.",
     "version": "1.0.0",
-    "last_updated": "2025-07-24T12:00:00Z",
+    "last_updated": "2025-07-27T12:00:00Z",
     "changelog": "Initial version with comprehensive video prompting fields",
     "type": "object",
     "author": {
-        "name": "The Cato Bot Company Limited",
-        "email": "schemas@context-notation.com"
+        "name": "Nikolaos Maniatis",
+        "email": "schemas@context-notation.com",
+        "affiliation": "The Cato Bot Company Limited"
     },
     "license": "Apache-2.0",
     "keywords": [
@@ -166,7 +167,11 @@
                     "description": "Dominant color or color description (e.g., 'white with green logo', 'dark brown')."
                 }
             },
-            "required": ["prop_id", "name", "description"]
+            "required": [
+                "prop_id",
+                "name",
+                "description"
+            ]
         },
         "audio_element_parameters": {
             "type": "object",
@@ -179,7 +184,11 @@
                 },
                 "type": {
                     "type": "string",
-                    "enum": ["ambient", "sound_effect", "music_loop"],
+                    "enum": [
+                        "ambient",
+                        "sound_effect",
+                        "music_loop"
+                    ],
                     "description": "Categorization of the audio element."
                 },
                 "description": {
@@ -187,7 +196,11 @@
                     "description": "Detailed description of the sound (e.g., 'subtle background hum, distant chatter, gentle clinking of cups')."
                 }
             },
-            "required": ["audio_id", "type", "description"]
+            "required": [
+                "audio_id",
+                "type",
+                "description"
+            ]
         },
         "subject_parameters": {
             "type": "object",
@@ -211,7 +224,11 @@
                     "description": "Additional visual details about the subject's appearance."
                 }
             },
-            "required": ["subject_id", "name", "description"]
+            "required": [
+                "subject_id",
+                "name",
+                "description"
+            ]
         },
         "motion_graphic_parameters": {
             "type": "object",
@@ -248,7 +265,12 @@
                     "description": "Overall visual design style of the graphic (e.g., 'minimalist', 'futuristic neon', 'hand-drawn')."
                 }
             },
-            "required": ["graphic_id", "type", "animation_style", "design_style"]
+            "required": [
+                "graphic_id",
+                "type",
+                "animation_style",
+                "design_style"
+            ]
         },
         "lighting_preset_parameters": {
             "type": "object",
@@ -272,7 +294,11 @@
                     "description": "Overall lighting style (e.g., 'soft daylight', 'moody chiaroscuro', 'high-key studio lit', 'neon glow', 'backlit', 'silhouette')."
                 }
             },
-            "required": ["preset_id", "name", "lighting_style"]
+            "required": [
+                "preset_id",
+                "name",
+                "lighting_style"
+            ]
         },
         "tone_preset_parameters": {
             "type": "object",
@@ -296,7 +322,11 @@
                     "description": "General emotional tone or energy of the video (e.g., 'empowering', 'whimsical', 'tense', 'inspirational', 'somber', 'humorous', 'dramatic', 'calm', 'energetic')."
                 }
             },
-            "required": ["preset_id", "name", "tone_style"]
+            "required": [
+                "preset_id",
+                "name",
+                "tone_style"
+            ]
         }
     },
     "properties": {
@@ -611,7 +641,10 @@
                     "properties": {
                         "lighting": {
                             "oneOf": [
-                                { "type": "string", "description": "Overall lighting style (e.g., 'soft daylight')." },
+                                {
+                                    "type": "string",
+                                    "description": "Overall lighting style (e.g., 'soft daylight')."
+                                },
                                 {
                                     "type": "object",
                                     "properties": {
@@ -620,13 +653,18 @@
                                             "description": "Reference to a global lighting preset ID."
                                         }
                                     },
-                                    "required": ["preset_id_reference"]
+                                    "required": [
+                                        "preset_id_reference"
+                                    ]
                                 }
                             ]
                         },
                         "tone": {
                             "oneOf": [
-                                { "type": "string", "description": "General emotional tone (e.g., 'calm energy')." },
+                                {
+                                    "type": "string",
+                                    "description": "General emotional tone (e.g., 'calm energy')."
+                                },
                                 {
                                     "type": "object",
                                     "properties": {
@@ -635,7 +673,9 @@
                                             "description": "Reference to a global tone preset ID."
                                         }
                                     },
-                                    "required": ["preset_id_reference"]
+                                    "required": [
+                                        "preset_id_reference"
+                                    ]
                                 }
                             ]
                         }
@@ -818,9 +858,21 @@
                                 }
                             },
                             "oneOf": [
-                                { "required": ["character_id"] },
-                                { "required": ["subject_id_reference"] },
-                                { "required": ["description"] }
+                                {
+                                    "required": [
+                                        "character_id"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "subject_id_reference"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "description"
+                                    ]
+                                }
                             ]
                         },
                         "minItems": 0
@@ -831,7 +883,10 @@
                         "properties": {
                             "lighting": {
                                 "oneOf": [
-                                    { "type": "string", "description": "Overall lighting style (e.g., 'soft daylight')." },
+                                    {
+                                        "type": "string",
+                                        "description": "Overall lighting style (e.g., 'soft daylight')."
+                                    },
                                     {
                                         "type": "object",
                                         "properties": {
@@ -840,13 +895,18 @@
                                                 "description": "Reference to a global lighting preset ID."
                                             }
                                         },
-                                        "required": ["preset_id_reference"]
+                                        "required": [
+                                            "preset_id_reference"
+                                        ]
                                     }
                                 ]
                             },
                             "tone": {
                                 "oneOf": [
-                                    { "type": "string", "description": "General emotional tone (e.g., 'calm energy')." },
+                                    {
+                                        "type": "string",
+                                        "description": "General emotional tone (e.g., 'calm energy')."
+                                    },
                                     {
                                         "type": "object",
                                         "properties": {
@@ -855,7 +915,9 @@
                                                 "description": "Reference to a global tone preset ID."
                                             }
                                         },
-                                        "required": ["preset_id_reference"]
+                                        "required": [
+                                            "preset_id_reference"
+                                        ]
                                     }
                                 ]
                             }
@@ -896,8 +958,16 @@
                                         }
                                     },
                                     "oneOf": [
-                                        { "required": ["prop_id_reference"] },
-                                        { "required": ["name"] }
+                                        {
+                                            "required": [
+                                                "prop_id_reference"
+                                            ]
+                                        },
+                                        {
+                                            "required": [
+                                                "name"
+                                            ]
+                                        }
                                     ]
                                 },
                                 "minItems": 0,
@@ -949,8 +1019,18 @@
                                         }
                                     },
                                     "oneOf": [
-                                        { "required": ["graphic_id_reference"] },
-                                        { "required": ["type", "content", "animation_style"] }
+                                        {
+                                            "required": [
+                                                "graphic_id_reference"
+                                            ]
+                                        },
+                                        {
+                                            "required": [
+                                                "type",
+                                                "content",
+                                                "animation_style"
+                                            ]
+                                        }
                                     ]
                                 },
                                 "minItems": 0,
@@ -1057,7 +1137,9 @@
                                                     "description": "Reference to an audio element defined in the top-level 'global_audio_elements' array."
                                                 }
                                             },
-                                            "required": ["audio_id_reference"]
+                                            "required": [
+                                                "audio_id_reference"
+                                            ]
                                         }
                                     ]
                                 },

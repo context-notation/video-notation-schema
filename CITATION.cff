@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this schema in your work, please cite it as below."
+title: "Video Notation Schema"
+version: "1.0.0"
+date-released: 2025-07-27
+authors:
+  - family-names: Maniatis
+    given-names: Nikolaos
+    affiliation: The Cato Bot Company Limited
+repository-code: https://github.com/context-notation/video-notation-schema
+url: https://schemas.video-notation.com/video-notation.schema@v1.0.0
+license: Apache-2.0
