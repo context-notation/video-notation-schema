@@ -125,11 +125,23 @@ Released under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for the fu
 
 ---
 
+### 🛠 Maintainer
+
+The schema was authored by **Nikolaos Maniatis** and is maintained and distributed by **The Cato Bot Company Limited**.
+
+Raise an **[issue](https://github.com/context-notation/video-notation-schema/issues/new) in this repository if you have found a bug or would like to suggest an addition.
+
+For commercial enquiries, long-term support, or integration partnerships, please contact:
+📧 **[schemas@context-notation.com](mailto:schemas@context-notation.com)**
+
+---
+
 ## Citation
 
 If you use the Video Notation Schema in academic work, please cite:
 
-**Nikolaos Maniatis.** *Video Notation Schema (v1.0.0)*. https://schemas.video-notation.com/video-notation.schema@v1.0.0  
+**Nikolaos Maniatis.** *Video Notation Schema (v1.0.0)*. 
+https://schemas.video-notation.com/video-notation.schema@v1.0.0  
 Available at: https://github.com/context-notation/video-notation-schema  
 Licensed under Apache 2.0. Maintained by The Cato Bot Company Limited.
 
@@ -137,15 +149,3 @@ APA:
 Maniatis, N. (2025). *Video Notation Schema (v1.0.0)*. https://github.com/context-notation/video-notation-schema
 
 ---
-
-## 📞 Support & Contact
-
-•  Raise an issue in this repository if you have found a bug or would like to request a feature.
-•  For anything private, e‑mail **[schemas@context-notation.com](mailto:schemas@context-notation.com)**.
-
----
-
-*Created and maintained by **The Cato Bot Company Limited***
-
-
-
