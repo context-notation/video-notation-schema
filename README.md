@@ -4,9 +4,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![JSON Schema](https://img.shields.io/badge/JSON--Schema-Draft%202020--12-lightgrey)
 ![Licence](https://img.shields.io/badge/licence-Apache%202.0-brightgreen)
-![Last Updated](https://img.shields.io/badge/last%20updated-July%202024-informational)
-![Open Issues](https://img.shields.io/github/issues/context-notation/video-notation-schema)
-![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blueviolet)
+![Last Updated](https://img.shields.io/badge/last%20updated-July%202025-informational)
 
 ---
 
@@ -123,7 +121,7 @@ We welcome contributions of every kind – from factual corrections and clarific
 
 ## 📄 Licence
 
-Released under the **Apache License 2.0**. See [`LICENCE`](LICENCE) for the full licence text.
+Released under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for the full licence text.
 
 ---
 
