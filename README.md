@@ -46,7 +46,7 @@ The root object is organised into the following top‑level sections:
 | `scenes`                                                                                                                               | An array of individual scenes, each with its own specific settings and overrides. |
 | `annotations`                                                                                                                          | Production and post‑production notes, including external asset references.        |
 
-For a complete breakdown of every field and its type, refer to [`video-notation.schema.json`](./video-notation.schema.json).
+For a complete breakdown of every field and its type, refer to [`video-notation.schema.json`](.schema/video-notation.schema.json).
 
 ---
 
