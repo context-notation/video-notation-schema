@@ -136,7 +136,7 @@ The schema was authored by [**Nikolaos Maniatis**](https://github.com/nikmaniati
 Raise an **[issue](https://github.com/context-notation/video-notation-schema/issues/new)** in this repository if you have found a bug or would like to suggest an addition.
 
 For commercial enquiries, long-term support, or integration partnerships, please contact:
-📧 **[schemas@context-notation.com](mailto:hi@iamcatobot.me)**
+📧 **[hi@iamcatobot.me](mailto:hi@iamcatobot.me)**
 
 ---
 
