@@ -78,7 +78,7 @@ The web‑based **Video Notation Studio** provides a guided interface with valid
 ![Screenshot of the Video Notation Studio web editor showing the “Project Info” section](images/video-notation-studio.png)
 
 
-**Video Notation Studio: [https://video-notation.com][https://video-notation.com]**
+**Video Notation Studio: [https://video-notation.com](https://video-notation.com)**
 
 ### 2. Edit JSON manually with schema‑aware tooling
 
