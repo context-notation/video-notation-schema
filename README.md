@@ -21,7 +21,7 @@ Schema URI    | `https://schemas.video-notation.com/video-notation.schema@v1.0.0
 
 | Area                       | Highlights                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Detailed metadata**      | Duration, aspect ratio, resolution, language, target audience, accessibility flags, \&c.                           |
+| **Detailed metadata**      | Duration, aspect ratio, resolution, language, target audience, accessibility flags, etc.                           |
 | **Character definitions**  | Rich, reusable character profiles with wardrobe, personality, and vocal traits.                                    |
 | **Global styling**         | Consistent visual and auditory themes (camera, lighting, tone, audio) across the entire video.                     |
 | **Scene‑by‑scene control** | Unique parameters for each scene, including location, environment, subjects, props, motion graphics, and dialogue. |
@@ -46,7 +46,7 @@ The root object is organised into the following top‑level sections:
 | `scenes`                                                                                                                               | An array of individual scenes, each with its own specific settings and overrides. |
 | `annotations`                                                                                                                          | Production and post‑production notes, including external asset references.        |
 
-For a complete breakdown of every field and its type, refer to [`video-notation.schema.json`](.schema/video-notation.schema.json).
+For a complete breakdown of every field and its type, refer to [`video-notation.schema.json`](schema/video-notation.schema.json).
 
 ---
 
@@ -63,15 +63,16 @@ The **Video Notation Schema** addresses these challenges by providing:
 - **Enhanced workflows** – Streamline prompting for individuals and teams, enabling efficient iteration and faster delivery.
 - **Versionability** – JSON prompts integrate seamlessly with version‑control systems such as Git, allowing transparent tracking of changes, collaborative review, and simple roll‑backs.
 
-In essence, the schema transforms abstract creative concepts into concrete, actionable instructions for AI, unlocking new possibilities for storytelling and visual communication.
+In essence, the schema translates abstract creative concepts into concrete, actionable instructions for AI, unlocking new possibilities for storytelling and visual communication.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Use Video Notation Studio *(recommended)*
+### 1. Use Video Notation Studio 
 
-The web‑based **Video Notation Studio** provides a guided interface with validation, real-time visualisation and the ability to export your completed JSON prompt.
+Our web‑based **Video Notation Studio** provides a guided interface with validation, real-time visualisation, and the ability to export your completed JSON prompt. 
+The Studio is fully browser-based and uses local storage only — your work is saved privately in your browser and never uploaded or shared.
 
 #### Studio Screenshot
 
@@ -84,7 +85,7 @@ The web‑based **Video Notation Studio** provides a guided interface with valid
 
 Install a JSON Schema aware editor or plugin (e.g. Visual Studio Code with the **YAML** or **JSON Schema** extension). Add a `$schema` key to the top of your file to enable validation and autocompletion.
 
-### 3. Create a prompt – minimal example
+**Prompt – minimal example:**
 
 ```jsonc
 {
@@ -106,9 +107,11 @@ Install a JSON Schema aware editor or plugin (e.g. Visual Studio Code with the 
 }
 ```
 
-Fully‑featured sample prompts are available at [`examples/examples.md`](./examples/examples.md).
+Fully‑featured sample prompts are available at [`examples/examples.md`](/examples/examples.md).
 
-### 4. Use prompt with models
+---
+
+## Use prompt with models
 
 Use your JSON prompt with any text-to-video AI video generation model. 
 
@@ -128,7 +131,7 @@ Released under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for the fu
 
 ### 🛠 Maintainer
 
-The schema was authored by **Nikolaos Maniatis** and is maintained and distributed by **The Cato Bot Company Limited**.
+The schema was authored by [**Nikolaos Maniatis**](https://github.com/nikmaniatis) and is maintained and distributed by **The Cato Bot Company Limited**.
 
 Raise an **[issue](https://github.com/context-notation/video-notation-schema/issues/new)** in this repository if you have found a bug or would like to suggest an addition.
 
@@ -137,16 +140,14 @@ For commercial enquiries, long-term support, or integration partnerships, please
 
 ---
 
-## Citation
-
 If you use the Video Notation Schema in academic work, please cite:
 
-**Nikolaos Maniatis.** *Video Notation Schema (v1.0.0)*. 
-https://schemas.video-notation.com/video-notation.schema@v1.0.0  
-Available at: https://github.com/context-notation/video-notation-schema  
+**Nikolaos Maniatis.** *Video Notation Schema (v1.0.0)*.  
+<https://schemas.video-notation.com/video-notation.schema@v1.0.0>  
+Available at: <https://github.com/context-notation/video-notation-schema>  
 Licensed under Apache 2.0. Maintained by The Cato Bot Company Limited.
 
-APA:
-Maniatis, N. (2025). *Video Notation Schema (v1.0.0)*. https://github.com/context-notation/video-notation-schema
+**APA:**
+Maniatis, N. (2025). *Video Notation Schema (v1.0.0)*. Retrieved from <https://github.com/context-notation/video-notation-schema>
 
 ---
