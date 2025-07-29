@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'schema/**'  # Only run when any file in schema/ changes
 
 permissions:
   contents: write  # This is required to push to gh-pages branch
