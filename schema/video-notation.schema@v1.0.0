@@ -4,12 +4,12 @@
     "title": "Video Notation Schema",
     "description": "A comprehensive schema for prompting Ai generated video content, designed for AI video generation models. Created and maintained by The Cato Bot Company Limited.",
     "version": "1.0.0",
-    "last_updated": "2025-07-27T12:00:00Z",
+    "last_updated": "2025-07-28T12:00:00Z",
     "changelog": "Initial version with comprehensive video prompting fields",
     "type": "object",
     "author": {
         "name": "Nikolaos Maniatis",
-        "email": "schemas@context-notation.com",
+        "email": "hello@context-notation.com",
         "affiliation": "The Cato Bot Company Limited"
     },
     "license": "Apache-2.0",
