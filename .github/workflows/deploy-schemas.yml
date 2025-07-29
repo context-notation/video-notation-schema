@@ -21,7 +21,7 @@ jobs:
       - name: Deploy to Cloudflare Pages
         run: |
           wrangler pages deploy ./schema \
-            --project-name=my-schema-project \
+            --project-name=video-notation-schema \
             --branch=main
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
