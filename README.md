@@ -121,7 +121,7 @@ Use your JSON prompt with any text-to-video AI video generation model.
 
 We welcome contributions from the community! Whether you're reporting a bug or suggesting a feature your input is greatly appreciated.
 
-📣 [GitHub Discussions](https://github.com/context-notation/video-notation/discussions)
+📣 [GitHub Discussions](https://github.com/context-notation/video-notation-schema/discussions)
 
 ---
 
@@ -141,6 +141,8 @@ For commercial enquiries, long-term support, or integration partnerships, please
 📧 **[hi@iamcatobot.me](mailto:hi@iamcatobot.me)**
 
 ---
+
+## Citation
 
 If you use the Video Notation Schema in academic work, please cite:
 
