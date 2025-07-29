@@ -5,6 +5,7 @@
 ![JSON Schema](https://img.shields.io/badge/JSON--Schema-Draft%202020--12-lightgrey)
 ![Licence](https://img.shields.io/badge/licence-Apache%202.0-brightgreen)
 ![Last Updated](https://img.shields.io/badge/last%20updated-July%202025-informational)
+![Valid Schema](https://img.shields.io/badge/schema-valid-success)
 
 ---
 
@@ -64,6 +65,16 @@ The **Video Notation Schema** addresses these challenges by providing:
 - **Versionability** – JSON prompts integrate seamlessly with version‑control systems such as Git, allowing transparent tracking of changes, collaborative review, and simple roll‑backs.
 
 In essence, the schema translates abstract creative concepts into concrete, actionable instructions for AI, unlocking new possibilities for storytelling and visual communication.
+
+---
+
+## Example Use Cases
+
+- **Film Productions**: Pre-visualisation and storyboarding
+- **Marketing Agencies**: Consistent brand video generation
+- **Game Development**: Cutscene and trailer creation
+- **Education**: Automated educational content production
+- **Research**: Synthetic video data for AI training
 
 ---
 
@@ -131,14 +142,22 @@ Released under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for the fu
 
 ---
 
-### 🛠 Maintainer
+## Support & Collaboration
 
-The schema was authored by [**Nikolaos Maniatis**](https://github.com/nikmaniatis) and is maintained and distributed by **The Cato Bot Company Limited**.
+The Video Notation Schema was authored by **Nikolaos Maniatis** and is maintained by **The Cato Bot Company Limited** as part of the [Context Notation](https://context-notation.com) initiative.
 
-Raise an **[issue](https://github.com/context-notation/video-notation-schema/issues/new)** in this repository if you have found a bug or would like to suggest an addition.
+For questions about:
+- Using Video Notation in your projects
+- Contributing to development
+- Research collaborations  
+- Commercial support options
 
-For commercial enquiries, long-term support, or integration partnerships, please contact:
-📧 **[hi@iamcatobot.me](mailto:hi@iamcatobot.me)**
+Feel free to reach out:
+
+📧 [hello@context-notation.com](mailto:hello@context-notation.com)  
+💬 [GitHub Discussions](https://github.com/context-notation/video-notation/discussions)  
+🌐 [context-notation.com](https://context-notation.com)
+
 
 ---
 
