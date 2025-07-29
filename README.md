@@ -117,9 +117,11 @@ Use your JSON prompt with any text-to-video AI video generation model.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions of every kind – from factual corrections and clarifications to entirely new capabilities. Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) for details on our code of conduct and the preferred workflow.
+We welcome contributions from the community! Whether you're reporting a bug or suggesting a feature your input is greatly appreciated.
+
+📣 [GitHub Discussions](https://github.com/context-notation/video-notation/discussions)
 
 ---
 
