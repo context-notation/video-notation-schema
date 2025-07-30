@@ -1,22 +1,31 @@
-name: Deploy Schema to Cloudflare Pages
+name: Deploy to Cloudflare Pages
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main  # or whatever your default branch is
     paths:
-      - 'schema/**'
+      - 'schema/**'  # Replace with your specific folder path
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    name: Deploy to Cloudflare Pages
+    
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Install Wrangler
-        run: npm install -g wrangler
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      # No build steps needed for static files
         
       - name: Deploy to Cloudflare Pages
-        run: |
-          wrangler pages deploy ./schema \
-            --project-name=video-notation-schema \
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: video-notation-schema  # Replace with your Cloudflare Pages project name
+          directory: .  # Path to the folder you want to deploy
+          # If you have a build step, change this to your build output directory
+          # directory: ./your-folder/dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
