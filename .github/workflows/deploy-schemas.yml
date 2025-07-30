@@ -29,4 +29,4 @@ jobs:
           createGitHubDeployment: false
           # If you have a build step, change this to your build output directory
           # directory: ./your-folder/dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          # gitHubToken: ${{ secrets.GITHUB_TOKEN }}
