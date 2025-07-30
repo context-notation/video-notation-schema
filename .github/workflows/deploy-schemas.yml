@@ -26,6 +26,7 @@ jobs:
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           projectName: video-notation-schema  # Replace with your Cloudflare Pages project name
           directory: .  # Path to the folder you want to deploy
+          createGitHubDeployment: false
           # If you have a build step, change this to your build output directory
           # directory: ./your-folder/dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
