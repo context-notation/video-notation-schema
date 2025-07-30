@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy Schemas to schemas.video-notation.com
 
 on:
   push:
@@ -19,14 +19,21 @@ jobs:
         
       # No build steps needed for static files
         
-      - name: Deploy to Cloudflare Pages
+      - name: Prepare deploy directory
+        run: |
+          mkdir deploy
+          cp -r schema/* deploy/
+      - name: Deploy
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           projectName: video-notation-schema  # Replace with your Cloudflare Pages project name
-          directory: .  # Path to the folder you want to deploy
+          directory: ./deploy  # Path to the folder you want to deploy
           createGitHubDeployment: false
           # If you have a build step, change this to your build output directory
-          # directory: ./your-folder/dist
           # gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
